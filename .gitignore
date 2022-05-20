@@ -1,0 +1,6 @@
+oauthapp
+scratch.sh
+venv/
+__pycache__
+flask_session/
+.env
