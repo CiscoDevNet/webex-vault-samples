@@ -8,7 +8,7 @@ appOAuthRedirectUrl=os.getenv('OAUTH_REDIRECT_URL')
 
 import hvac
 vault=hvac.Client(
-    url=os.getenv('VAULT_URL'),
+    url=os.getenv('VAULT_ADDR'),
     token=os.getenv('VAULT_TOKEN')
     )
 
